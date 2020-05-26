@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.mdl-layout__header {
+    background-color: rgb(241, 100, 18);
+}
+
+.img-title {
+    margin-top: 10px;
+    display: block;
+    height: 150px;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-title {
+        margin-top: 10px;
+        display: block;
+        height: 150px;
+        position: relative;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
