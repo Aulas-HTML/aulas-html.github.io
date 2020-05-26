@@ -1,1 +1,84 @@
-Ola Mundo!
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Curso de HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- The drawer is always open in large screens. The header is always shown, even in small screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Curso de HTML</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#sobreocurso">Sobre o curso</a>
+                <a class="mdl-navigation__link" href="#ementa">Ementa</a>
+                <a class="mdl-navigation__link" href="">Repositório</a>
+                <a class="mdl-navigation__link" href="">Fale conosco</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content mdl-components__pages">
+                <div class='img-title'>
+                    <img src="assets/img/HTML5-logo-150px.png" alt="">
+                </div>
+                <div class="mdl-grid">
+                    <!--<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">6 (8 tablet)</div>-->
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <section id="sobreocurso">
+                            <h2>Sobre o Curso</h2>
+                            <p>A linguagem de marcação de hipertexto (Hypertext Markup Language - HTML) é a base de qualquer website e de muitos aplcativos mobile. Sendo o HTML a linguagem mais utilisada na internet, se tornar fluente lhe fornece a capacidade de construir diversos tipos de contúdos para diversos tipos de dispositivos conectados a web.</p>
+                            <p>O objetivo deste curso é fornecer base para começar a sua jornada na fluência do HTML, abordaremos os conceitos básicos da linguagem, aqueles que muitas vezes são ignorados no processo de aprendisagem por acreditar que nada deve ser deixado de lado. No decorrer do curso iremos sempre fazer links a diversas outrasa tecnologias que estão trabalhando ao lado do HTML, bem como o protocolo de transferência de hipertexto (HyperText Transfe Protocol - HTTP) a qual esta alicerçada toda a Web, bem como algumas outras linguagens como CSS (Cascading Style Sheets) que permite estilizar suas pâginas ou seja, deixalas bonitas e a Linguagem JavaScript a qual poderá ser usada para determinar certos comportamentos a sua página de internet ou melhor, seu WebSite.</p>
+                            <section>
+                                <h3>O que este curso não fornece</h2>
+                                <ul>
+                                    <li>Este curso não vai tratar sobre construir Layouts</li>
+                                    <p>Embora vocês será o tempo todo estimulado a usar sua criatividade para construir seus layouts e também verá alguns layouts que podem ser classificados como bons modelos.</p>
+                                    <li>Não é um curso de CSS</li>
+                                    <p>Mesmo que possa parecer que estamos vendo um vasto conteúdo sobre CSS, este não é o objeto de nosso curso.</p>
+                                    <li>Não é um curso de JavaScript</li>
+                                    <p>Por mais que tenhamos que escrever código JavaScript em alguns momentos, a mesma ideia aplicada ao CSS, estamos aplicando aqui.</p>
+                                </ul>
+                            </section>
+                            <section>
+                                <h3>Como veremos o conteúdo agregado</h3>
+                                <p>Como vá mencionado, diversos outros conteúdos serão inseridos dentro do curso de HTML, embora eles sejam bem peculiares, iremos abordar de forma bem simples, sempre implementando apenas o necessário para que a complexidade do curso fique apenas no HTML.</p>
+                            </section>
+                        </section>
+                        <section id="ementa">
+                            <h2>Ementa do Curso</h2>
+                        </section>
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-desktop left-col">
+                        <h3>Aula 0</h3>
+                        <p>Nesta aula abordaremos conceitos históricos sobre a linguagem, bem como o seu funcionamento</p>
+                      </div>
+                    <!--<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">2 (4 phone)</div>-->
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
